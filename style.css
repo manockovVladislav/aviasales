@@ -1,0 +1,248 @@
+body {
+  background-color: #dfe5ec;
+}
+
+.nav_menu {
+  background-color: rgb(12, 115, 254);
+  height: 50px;
+}
+
+.navbar__tabs-wrap {
+  text-align: center;
+  margin-top: -3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  line-height: 1.75;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica,
+    Arial, sans-serif;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.form-tabs {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 16;
+  box-sizing: border-box;
+}
+
+.form-tabs__item {
+  padding: 0;
+  display: inline-block;
+}
+
+.form-tabs__link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  color: var(--tab-color);
+  text-decoration: none;
+  padding-top: 12px;
+  display: block;
+}
+
+svg {
+  color: white;
+  margin-top: 10px;
+}
+
+.is-active {
+  padding-top: 5px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.hotel {
+  border: 1px solid white;
+  border-radius: 0px 50px 50px 0px;
+  padding-top: 5px;
+  width: 130px;
+}
+
+.biz {
+  background: rgb(100, 144, 232);
+  border-radius: 50px;
+  padding-top: 5px;
+  margin-left: 50px;
+  padding-top: 5px;
+  margin-top: 8px;
+}
+.rubl_but {
+  /* border: 1px solid white; */
+  padding-top: 5px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  min-width: 50px;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  webkit-box-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.5);
+  cursor: pointer;
+  margin-top: 8px;
+  height: 30px;
+}
+.icon_button {
+  border: 1px solid white;
+  padding-top: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.5);
+  overflow: hidden;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.l_input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.r_input {
+  margin-left: -30px;
+  margin-right: 10px;
+  padding-right: 28px;
+}
+.f_l_input {
+  margin-right: -30px;
+  border-radius: 3px 0px 0px 0px;
+}
+.r_l_input {
+  border-radius: 0px 3px 0px 0px;
+}
+
+.div_svg {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  box-shadow: 0 0 0 2px rgba(221, 221, 221, 0.9);
+  background-repeat: no-repeat;
+  border-radius: 50% !important;
+  cursor: pointer;
+  color: black;
+  margin-top: 4px;
+  left: 15px;
+  z-index: 10;
+}
+
+.svg_arrow {
+  background-position: center center;
+  fill: blue;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.button_nav {
+  background-color: rgb(12, 115, 254);
+  height: 50px;
+  margin-top: 3px;
+  margin-left: -2px;
+}
+
+.data_input {
+  padding-right: 3px;
+}
+
+.data_back_input {
+  padding-left: 0px;
+  padding-right: 15px;
+  width: 27%;
+}
+
+.data_input_button {
+  border-radius: 0px 0px 0px 3px;
+}
+.data_input_button_back {
+  border-radius: 0px;
+}
+
+.div_button_passager {
+  padding-left: 3px;
+  padding-right: 0px;
+  width: 22%;
+  margin-left: -15px;
+}
+
+.button_passager {
+  border-radius: 0;
+  width: 100%;
+}
+
+.div_button_order {
+  padding-left: 3px;
+  padding-right: 0px;
+}
+
+.button_order {
+  border-radius: 0px 0px 3px 0px;
+  width: 100%;
+}
+
+.route {
+  background-color: rgb(12, 115, 254);
+  height: 30px;
+  color: white;
+}
+.p_route {
+  margin-left: 15px;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  color: rgb(12, 115, 254);
+}
+
+.price_container {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.row_luggage {
+  margin-top: 20px;
+}
+
+.button_luggage {
+  margin-left: 30%;
+}
+
+.text_luggage {
+  margin-top: 20px;
+}
+
+.footer_row {
+  margin-top: 30px;
+  background-color: white;
+}
+
+.footer_link {
+  margin-top: 20px;
+}
+
+.footer_button {
+  margin-top: 20px;
+}
+
+.footer_right {
+  margin-top: 20px;
+}
